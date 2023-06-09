@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="src/index.js" defer></script>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Admin</th>
+        </tr>
+      </thead>
+      <tbody id="table1">
+        <tr>
+          <td>Webmaster</td>
+          <td>example@email.com</td>
+          <td>Demoland 123</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>User123</td>
+          <td>example@email.com</td>
+          <td>Userplace 321</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>AnotherUser222</td>
+          <td>example@email.com</td>
+          <td>AnotherPlace 21</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <form action="" method="GET" id="form1">
+      <fieldset>
+        <legend>Form</legend>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="input-username" />
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="input-email" />
+        <label for="address">Address: </label>
+        <input type="text" name="address" id="input-address" />
+        <label for="admin">Admin: </label>
+        <input type="checkbox" name="admin" id="input-admin" />
+      </fieldset>
+
+      <input type="submit" value="Submit" id="submit-data" />
+    </form>
+
+    <button type="button" id="empty-table">Empty Table</button>
+  </body>
+</html>
